@@ -1,0 +1,29 @@
+{
+  "name": "gp",
+  "version": "1.0.0",
+  "description": "zhaoolee作为一名摄影爱好者，偶尔也会打打游戏，接触了游戏摄影后，感觉**游戏摄影**比游戏本身还好玩。于是便有了这个网站。[https://zhaoolee.com/gp](https://zhaoolee.com/gp)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "docsify-cli": "4.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "docsify serve docs",
+    "push": "git pull && git add . && git commit -m 'ok' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoolee/gp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaoolee/gp/issues"
+  },
+  "homepage": "https://github.com/zhaoolee/gp#readme"
+}
