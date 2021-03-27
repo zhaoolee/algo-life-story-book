@@ -6,14 +6,16 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fs-extra": "^9.1.0"
+  },
   "devDependencies": {
     "docsify-cli": "4.1.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "docsify serve docs",
-    "push": "git pull && git add . && git commit -m 'ok' && git push"
+    "push": "git pull && node main.js && git add . && git commit -m 'ok' && git push"
   },
   "repository": {
     "type": "git",
