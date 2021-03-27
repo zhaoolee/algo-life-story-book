@@ -1,18 +1,20 @@
-# 游戏摄影师修炼手册
+# 算法生活故事书
 
-zhaoolee作为一名摄影爱好者，偶尔也会打打游戏，接触了游戏摄影后，感觉**游戏摄影**比游戏本身还好玩。于是便有了这个网站。[https://zhaoolee.com/gp](https://zhaoolee.com/gp)
-
-我在B站开了一个直播间 [https://live.bilibili.com/22917242](https://live.bilibili.com/22917242)，直播游戏摄影的全过程
-
-## 本仓库的主要内容
-
-- 各类游戏的摄影作品
-- 游戏摄影操作技巧
-- 游戏摄影后期软件的使用（Adobe PhotoShop， Adobe Lightroom）
+🔆《算法生活故事书》将LeetCode算法题目, 应用到日常生活的奇妙故事书。
 
 
-## 游戏目录
+## 项目规划
 
-### 《原神》
+程序员的技术面试都逃不过算法题, 为了应对各种算法题, LeetCode(力扣)应运而生, 力扣存储了已经公开的面试题
 
-![2021315233410](README.assets/2021315233410.png)
+
+## 将项目运行在本地
+
+```shell
+git clone --depth=1 https://github.com/zhaoolee/algo-life-story-book.git
+cd algo-life-story-book
+npm i
+npm run dev
+```
+
+
